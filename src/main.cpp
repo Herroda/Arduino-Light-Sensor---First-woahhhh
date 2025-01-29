@@ -31,8 +31,8 @@ void loop() {
   }
 
   delay(200); // Delay for 200 milliseconds
-
-  digitalWrite(greenLEDpin, LOW); // Turn off green LED
-  digitalWrite(yellowLEDpin, LOW); // Turn off yellow LED
-  digitalWrite(redLEDpin, LOW); // Turn off red LED
+  
+  digitalWrite(greenLEDpin, LOW); // Turn off green LED by setting to low voltage
+  digitalWrite(yellowLEDpin, LOW); // Turn off yellow LED by setting to low voltage
+  digitalWrite(redLEDpin, LOW); // Turn off red LED by setting to low voltage
 }
